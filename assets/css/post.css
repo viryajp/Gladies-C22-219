@@ -1,0 +1,78 @@
+
+body {
+    position: relative;
+    font-family: 'Exo';
+    font-size: 16px;
+}
+p{
+    font-size: 16px;
+}
+.topBar {
+    z-index: 20;
+    position:sticky;
+    top: 0px;
+    color: #5A3467;
+    background-color: #F8EDFA;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #DDD7DF 1px solid;
+
+}
+.inputBruh{
+    width: 100%;
+    border-radius: 100px;
+    background-color: #5A3467;
+    padding:10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pMarginGoBye {
+    padding: 0;
+    margin: 0;
+}
+.activeBar{
+    background-color: #5A3467;
+    color: white;
+}
+input {
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.buttonStuff{
+    cursor: pointer;
+    transition: 300ms ease;
+}
+.buttonStuff:hover{
+    transition: none;
+    background-color: #85408c;
+    color: white;
+}
+@media only screen and (max-width: 800px){
+    .topBar{
+        flex-direction: column;
+    }
+    .bruh{
+        flex-direction: column;
+    }
+    
+    .menA{
+        width: 80%;
+    }
+}
+@media only screen and (max-device-width: 800px){
+    .topBar{
+        flex-direction: column;
+    }
+    .bruh{
+        flex-direction: column;
+    }
+    
+    .menA{
+        width: 80%;
+    }
+}

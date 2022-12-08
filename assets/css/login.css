@@ -1,0 +1,56 @@
+
+body{
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-family: 'Exo';
+    color: #585656;
+}
+.inputBruh:hover{
+    border-color: #585656;
+}
+input {
+    background-color: transparent;
+    
+}
+.rightStuff{
+    /* display: none; */
+}
+.right-side{
+    color: white;
+
+}
+.right-side p,.right-side li {
+    font-size: 12px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.bg{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../sign.png');
+    background-size: cover;
+    
+}
+
+.leftStuff{
+        min-width: 50vw;
+        overflow-y: auto;
+    }
+.per{
+    min-height: 100%;
+}
+@media only screen and (max-width: 700px){
+    .leftStuff{
+        min-width: 100vw !important;
+    }
+    .rightStuff{
+        display: none !important;
+    }
+}
+@media only screen and (max-device-width: 700px){
+    .leftStuff{
+        min-width: 100vw !important;
+    }
+    .rightStuff{
+        display: none !important;
+    }
+}
